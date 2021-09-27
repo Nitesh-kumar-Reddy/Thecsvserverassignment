@@ -9,6 +9,8 @@
  1098  docker run -it infracloudio/csvserver /bin/bash
  1099  echo $((1 + $RANDOM % 10))
  1100  echo $((1 + $RANDOM % 1000))
+ #
+ echo command in linux is used to display line of text/string that are passed as an argument 
  1101  echo $RANDOM
  1102  for i in $(seq 1 10); do echo $i;\ndone
  1103  for i in $(seq 1 10); do echo $i;done
@@ -146,6 +148,8 @@
  1235* curl -o ./part-1-output http://localhost:9393/raw
  1236* docker-compose up
  1237* curl -o ./part-1-output http://localhost:9393/raw
+#
+ curl is a tool to transfer data from or to a server, using one of the supported protocols (DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP). The command is designed to work without user interaction.
  1238* docker ps
  1239* docker logs 2438d7ba010b >& part-1-logs
  1240* docker-compose down
