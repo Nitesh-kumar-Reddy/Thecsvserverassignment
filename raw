@@ -23,8 +23,8 @@
  1112  ./gencsv.sh 5
  1113  ls
  1114  cat inputFile
- 1115  docker run 8cb989ef80b5
- 1116  docker run --volume=`pwd`/inputFile:/csvserver/inputdata
+# 1115  docker run 8cb989ef80b5
+# 1116  docker run --volume=`pwd`/inputFile:/csvserver/inputdata
  1117  docker run --volume=`pwd`/inputFile:/csvserver/inputdata 8cb989ef80b5
  1118  docker ps
  1119  docker exec -it 2dc7c22e17d7 /bin/bash
