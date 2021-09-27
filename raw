@@ -1,6 +1,6 @@
  1090  docker pull infracloudio/csvserver:latest
  1091  docker pull prom/prometheus:v2.22.0
- 1092  docker container ls
+ 1092  docker ps
  1093  infracloudio/csvserver:latest
  1094  docker start
  1095  docker ps
